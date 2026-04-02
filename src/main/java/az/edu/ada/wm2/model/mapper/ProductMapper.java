@@ -1,9 +1,9 @@
-package az.edu.ada.wm2.lab6.model.mapper;
+package az.edu.ada.wm2.model.mapper;
 
-import az.edu.ada.wm2.lab6.model.Category;
-import az.edu.ada.wm2.lab6.model.Product;
-import az.edu.ada.wm2.lab6.model.dto.ProductRequestDto;
-import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
+import az.edu.ada.wm2.model.Category;
+import az.edu.ada.wm2.model.Product;
+import az.edu.ada.wm2.model.dto.ProductRequestDto;
+import az.edu.ada.wm2.model.dto.ProductResponseDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

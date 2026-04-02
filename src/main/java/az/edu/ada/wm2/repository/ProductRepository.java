@@ -1,6 +1,6 @@
-package az.edu.ada.wm2.lab6.repository;
+package az.edu.ada.wm2.repository;
 
-import az.edu.ada.wm2.lab6.model.Product;
+import az.edu.ada.wm2.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

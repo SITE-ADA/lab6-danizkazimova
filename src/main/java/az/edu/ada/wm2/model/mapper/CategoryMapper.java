@@ -1,8 +1,8 @@
-package az.edu.ada.wm2.lab6.model.mapper;
+package az.edu.ada.wm2.model.mapper;
 
-import az.edu.ada.wm2.lab6.model.Category;
-import az.edu.ada.wm2.lab6.model.dto.CategoryRequestDto;
-import az.edu.ada.wm2.lab6.model.dto.CategoryResponseDto;
+import az.edu.ada.wm2.model.Category;
+import az.edu.ada.wm2.model.dto.CategoryRequestDto;
+import az.edu.ada.wm2.model.dto.CategoryResponseDto;
 
 public class CategoryMapper {
 

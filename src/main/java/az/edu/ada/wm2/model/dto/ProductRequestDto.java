@@ -1,4 +1,4 @@
-package az.edu.ada.wm2.lab6.model.dto;
+package az.edu.ada.wm2.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

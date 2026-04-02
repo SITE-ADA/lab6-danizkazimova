@@ -1,4 +1,4 @@
-package az.edu.ada.wm2.lab6.model;
+package az.edu.ada.wm2.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
