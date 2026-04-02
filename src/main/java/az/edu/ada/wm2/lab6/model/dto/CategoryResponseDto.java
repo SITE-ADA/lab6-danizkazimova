@@ -1,14 +1,14 @@
 package az.edu.ada.wm2.lab6.model.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class CategoryResponseDto {
     private UUID id;
     private String name;

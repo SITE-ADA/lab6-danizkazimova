@@ -20,7 +20,6 @@ public interface ProductMapper {
     Product toEntity(ProductRequestDto dto);
 
     default List<String> mapCategoriesToNames(List<Category> categories) {
-        if (categories == null) return List.of();
         return categories.stream()
                 .map(Category::getName)
                 .toList();

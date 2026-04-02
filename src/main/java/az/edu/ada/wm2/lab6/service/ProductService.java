@@ -1,13 +1,15 @@
-package az.edu.ada.wm2.service;
+package az.edu.ada.wm2.lab6.service;
 
 import az.edu.ada.wm2.lab6.model.dto.ProductRequestDto;
 import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
 public interface ProductService {
+
     ProductResponseDto createProduct(ProductRequestDto product);
     ProductResponseDto getProductById(UUID id);
     List<ProductResponseDto> getAllProducts();
