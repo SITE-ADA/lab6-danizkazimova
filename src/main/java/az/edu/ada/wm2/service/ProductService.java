@@ -1,4 +1,4 @@
-package az.edu.ada.wm2.lab6.service;
+package az.edu.ada.wm2.service;
 
 import az.edu.ada.wm2.lab6.model.Product;
 import java.math.BigDecimal;
